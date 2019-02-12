@@ -1,0 +1,25 @@
+{
+    "name": "roksta/permissions",
+    "description": "Permissions manager for laravel",
+    "type": "library",
+    "keywords": ["permissions", "laravel", "roles"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "roksta",
+            "email": "roksta21@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "helpers/helpers.php"
+        ],
+        "psr-4": {
+            "Roksta\\Permit\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0",
+    }
+    
+}
