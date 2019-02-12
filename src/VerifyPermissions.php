@@ -22,7 +22,7 @@ class VerifyPermissions
         $is_protected = DB::table('all_permissions')->where('name', '=', $current_route)->exists();
 
         if ($is_protected) {
-            if (Auth::user()->permissions()->contains($current_route)) {
+            if (Auth::guard($guard)->user()->permissions()->contains($current_route)) {
                 return $next($request);
             }
 
