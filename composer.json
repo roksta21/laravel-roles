@@ -1,6 +1,6 @@
 {
-    "name": "roksta/permissions",
-    "description": "Permissions manager for laravel",
+    "name": "roksta/laravel-roles",
+    "description": "Permissions and user roles manager for laravel",
     "type": "library",
     "keywords": ["permissions", "laravel", "roles"],
     "license": "MIT",
@@ -21,5 +21,4 @@
     "require": {
         "php": ">=5.4.0"
     }
-    
 }
