@@ -2,6 +2,9 @@
 This package provides a simple method for managing users on a system. It lists all of the available routes defined in your application and takes advantage of the route name to give each user permission to visit each route separately. That means that each user needs explicit permissions to access each route. The package comes with already built views for user and role management, so all you need to do is create a new user and you will be able to immediately fine tune their role.
 
 ## Installation
+```bash
+composer require roksta/laravel-roles
+```
 
 ## Configuration
 Migrate the database to create the tables needed by the package. 
